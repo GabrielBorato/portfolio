@@ -1,0 +1,295 @@
+/* App.css */
+
+/* Configurações Globais */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color, #e0e0e0);
+  color: var(--text-color, #000);
+  overflow-x: hidden; /* Remover barras de rolagem horizontais */
+}
+
+/* Componente App */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Borda Externa */
+.App:before {
+  background-image: url('C:/Users/gabriel.borato/Documents/Dev/Portfólio 2.0/gabrielboratoportfolio/public/Ativo 1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  content: '';
+  border: 2px solid var(--text-color, #000);
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+  box-sizing: border-box;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Componente Header */
+.Header {
+  position: relative;
+}
+
+.Header h1 {
+  position: absolute;
+  top: 15%;
+  left: 3%;
+  margin: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: var(--text-color, #000);
+}
+
+/* Seção Sobre */
+#about.Section h2 {
+  position: absolute;
+  top: 5%;
+  left: 4%;
+  margin: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: var(--text-color, #000);
+  font-size: 20px;
+}
+
+/* Seção Projetos */
+#projects.Section h2 {
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: absolute;
+  top: 7%;
+  right: 87%;
+  color: var(--text-color, #000);
+}
+
+/* Seção Experiência */
+#experience.Section h2 {
+  position: absolute;
+  top: 65%;
+  left: 86%;
+  margin: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  color: var(--text-color, #000);
+}
+
+#experience.Section p {
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: absolute;
+  top: 67%;
+  left: 79%;
+  margin: 1%;
+  text-indent: 20px;
+  color: var(--text-color, #000);
+}
+
+/* Estilos para os Botões */
+.ThemeToggle {
+  position: fixed;
+  bottom: 1px;
+  left: 1px;
+  display: flex;
+  flex-direction: row;
+  writing-mode: vertical-rl;
+}
+
+.ThemeButton {
+  display: flex;
+  align-items: center;
+  direction: rtl;
+  transform: rotate(180deg);
+  cursor: pointer;
+  color: var(--text-color, #000);
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.ThemeButton input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 14px;
+  height: 14px;
+  border: 2px solid #000;
+  background-color: #ffffff;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+}
+
+.ThemeButton input[type="checkbox"]:hover {
+  background-color: #000;
+}
+
+.ThemeButton input[type="checkbox"]:checked {
+  background-color: #000;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  position: relative;
+  top: 13vh;
+  left: 2vw;
+  line-height: 0.8;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: var(--text-color, #000);
+}
+
+ul li a:before {
+  content: "\2022";
+  color: var(--text-color, #000);
+  display: inline-block;
+  width: 1em;
+}
+
+.dark-mode {
+  --background-color: #000000;
+  --text-color: #fff; 
+    background-color: var(--background-color);
+    background-image: url('C:/Users/gabriel.borato/Documents/Dev/Portfólio 2.0/gabrielboratoportfolio/public/Ativo 1.1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.dark-mode:before {
+  content: '';
+  border: 2px solid var(--text-color, #000);
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+  box-sizing: border-box;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.dark-mode .Header h1 {
+  color: var(--text-color);
+}
+
+.dark-mode nav ul li a {
+  color: var(--text-color);
+}
+
+.dark-mode .ThemeButton input[type="checkbox"] {
+  border-color: #fff;
+}
+
+.dark-mode .ThemeButton input[type="checkbox"]:checked {
+  background-color: #000000;
+}
+/* Celular (até 2532x1170 pixels) */
+@media only screen and (max-width: 844px) {
+  .Header h1 {
+    font-size: 30px;
+    top: 5%; 
+  }
+  #about.Section h2 {
+    top: 4%; 
+  }
+  #projects.Section h2 {
+    top: 7.5%; 
+    left: auto; 
+    right: 55%; 
+    transform: translateY(-50%); 
+  }
+  #experience.Section h2 {
+    top: 38%; 
+    left: 35%; 
+  }
+  #experience.Section p {
+    top: 45%; 
+    left: 10%; 
+    right: 10%; 
+  }
+  .ThemeToggle {
+    bottom: 5px; 
+  }
+  .App:before {
+    background-image: url('C:/Users/gabriel.borato/Documents/Dev/Portfólio 2.0/gabrielboratoportfolio/public/Ativo 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:left;
+    content: '';
+    border: 2px solid var(--text-color, #000);
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    box-sizing: border-box;
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    position: relative;
+    top: 11vh;
+    left: 7vw;
+    line-height: 0.8;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--text-color, #000);
+  }
+  
+  ul li a:before {
+    content: "\2022";
+    color: var(--text-color, #000);
+    display: inline-block;
+    width: 1em;
+  }
+  .dark-mode {
+    --background-color: #000000;
+    --text-color: #fff; 
+      background-color: var(--background-color);
+      background-image: url('C:/Users/gabriel.borato/Documents/Dev/Portfólio 2.0/gabrielboratoportfolio/public/Ativo 1.1.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: left;
+  }
+  .dark-mode:before {
+    content: '';
+    border: 2px solid var(--text-color, #000);
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    box-sizing: border-box;
+    pointer-events: none;
+    z-index: -1;
+  }
+}
+
