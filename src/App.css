@@ -19,7 +19,7 @@ body {
 
 /* Borda Externa */
 .App:before {
-  background-image: url('C:/Users/gabriel.borato/Documents/Dev/Portfólio 2.0/gabrielboratoportfolio/public/Ativo 1.png');
+  background-image: url('C:/Users/gabriel.borato/Documents/Dev/Portfolio/public/Ativo 1.1.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -52,8 +52,8 @@ body {
 /* Seção Sobre */
 #about.Section h2 {
   position: absolute;
-  top: 5%;
-  left: 4%;
+  top: 6%;
+  left: 5%;
   margin: 10px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: var(--text-color, #000);
@@ -66,15 +66,15 @@ body {
   font-weight: bold;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   position: absolute;
-  top: 7%;
-  right: 87%;
+  top: 8%;
+  left: 7%;
   color: var(--text-color, #000);
 }
 
 /* Seção Experiência */
 #experience.Section h2 {
   position: absolute;
-  top: 65%;
+  top: 52%;
   left: 86%;
   margin: 10px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -87,7 +87,7 @@ body {
   font-weight: bold;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   position: absolute;
-  top: 67%;
+  top: 55%;
   left: 79%;
   margin: 1%;
   text-indent: 20px;
@@ -165,13 +165,14 @@ ul li a:before {
 
 .dark-mode {
   --background-color: #000000;
-  --text-color: #fff; 
-    background-color: var(--background-color);
-    background-image: url('C:/Users/gabriel.borato/Documents/Dev/Portfólio 2.0/gabrielboratoportfolio/public/Ativo 1.1.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  --text-color: #fff;
+  background-color: var(--background-color);
+  background-image: url('C:/Users/gabriel.borato/Documents/Dev/Portfolio/public/Ativo 1.1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
 .dark-mode:before {
   content: '';
   border: 2px solid var(--text-color, #000);
@@ -200,96 +201,199 @@ ul li a:before {
 .dark-mode .ThemeButton input[type="checkbox"]:checked {
   background-color: #000000;
 }
-/* Celular (até 2532x1170 pixels) */
-@media only screen and (max-width: 844px) {
+
+/* Media Queries */
+
+/* Celulares */
+@media only screen and (max-width: 600px) {
   .Header h1 {
-    font-size: 30px;
-    top: 5%; 
+    font-size: 24px;
+    top: 7%;
+    left: 5%;
   }
+
   #about.Section h2 {
-    top: 4%; 
+    font-size: 18px;
+    top: 4%;
+    left: 5%;
   }
+
   #projects.Section h2 {
-    top: 7.5%; 
-    left: auto; 
-    right: 55%; 
-    transform: translateY(-50%); 
+    font-size: 18px;
+    top: 7.5%;
+    left: 7%;
+    transform: translateY(-50%);
   }
+
   #experience.Section h2 {
-    top: 38%; 
-    left: 35%; 
+    font-size: 18px;
+    top: 38%;
+    left: 35%;
   }
+
   #experience.Section p {
-    top: 45%; 
-    left: 10%; 
-    right: 10%; 
-  }
-  .ThemeToggle {
-    bottom: 5px; 
-  }
-  .App:before {
-    background-image: url('C:/Users/gabriel.borato/Documents/Dev/Portfólio 2.0/gabrielboratoportfolio/public/Ativo 1.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position:left;
-    content: '';
-    border: 2px solid var(--text-color, #000);
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    width: calc(100% - 40px);
-    height: calc(100% - 40px);
-    box-sizing: border-box;
-    pointer-events: none;
-    z-index: -1;
+    font-size: 16px;
+    top: 45%;
+    left: 10%;
+    right: 10%;
   }
 
   ul {
-    list-style-type: none;
-    padding-left: 0;
-    position: relative;
     top: 11vh;
     left: 7vw;
-    line-height: 0.8;
   }
-  
-  ul li {
-    margin-bottom: 10px;
+
+  .ThemeToggle {
+    bottom: 5px;
   }
-  
-  ul li a {
-    text-decoration: none;
-    font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: var(--text-color, #000);
-  }
-  
-  ul li a:before {
-    content: "\2022";
-    color: var(--text-color, #000);
-    display: inline-block;
-    width: 1em;
-  }
-  .dark-mode {
-    --background-color: #000000;
-    --text-color: #fff; 
-      background-color: var(--background-color);
-      background-image: url('C:/Users/gabriel.borato/Documents/Dev/Portfólio 2.0/gabrielboratoportfolio/public/Ativo 1.1.png');
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: left;
-  }
-  .dark-mode:before {
-    content: '';
+
+  .App:before {
+    background-image: url('C:/Users/gabriel.borato/Documents/Dev/Portfolio/public/Ativo 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
     border: 2px solid var(--text-color, #000);
-    position: fixed;
     top: 20px;
     left: 20px;
     width: calc(100% - 40px);
     height: calc(100% - 40px);
-    box-sizing: border-box;
-    pointer-events: none;
-    z-index: -1;
+  }
+
+  .dark-mode {
+    background-image: url('C:/Users/gabriel.borato/Documents/Dev/Portfolio/public/Ativo 1.1.png');
+    background-position: left;
+  }
+
+  .dark-mode:before {
+    border: 2px solid var(--text-color, #000);
+    top: 20px;
+    left: 20px;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
   }
 }
 
+/* Tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .Header h1 {
+    font-size: 28px;
+    top: 10%;
+    left: 2.5%;
+  }
+
+  #about.Section h2 {
+    font-size: 20px;
+    top: 3%;
+    left: 3.5%;
+  }
+
+  #projects.Section h2 {
+    font-size: 20px;
+    top: 5%;
+    left: 5%;
+    transform: translateY(-50%);
+  }
+
+  #experience.Section h2 {
+    font-size: 20px;
+    top: 70%;
+    left: 40%;
+  }
+
+  #experience.Section p {
+    font-size: 18px;
+    top: 73%;
+    left: 12%;
+    right: 12%;
+  }
+
+  ul {
+    top: 12vh;
+    left: 5vw;
+  }
+
+  .ThemeToggle {
+    bottom: 10px;
+  }
+
+  .App:before {
+    background-image: url('C:/Users/gabriel.borato/Documents/Dev/Portfolio/public/Ativo 1.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    border: 2px solid var(--text-color, #000);
+    top: 20px;
+    left: 20px;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+  }
+
+  .dark-mode {
+    background-image: url('C:/Users/gabriel.borato/Documents/Dev/Portfolio/public/Ativo 1.1.png');
+    background-position: left;
+  }
+
+  .dark-mode:before {
+    border: 2px solid var(--text-color, #000);
+    top: 20px;
+    left: 20px;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+  }
+}
+
+/* Desktops */
+@media only screen and (min-width: 1025px) {
+  .Header h1 {
+    font-size: 32px;
+  }
+
+  #about.Section h2 {
+    font-size: 24px;
+  }
+
+  #projects.Section h2 {
+    font-size: 24px;
+  }
+
+  #experience.Section h2 {
+    font-size: 24px;
+  }
+
+  #experience.Section p {
+    font-size: 20px;
+  }
+
+  ul {
+    top: 13vh;
+    left: 2vw;
+  }
+
+  .ThemeToggle {
+    bottom: 1px;
+  }
+
+  .App:before {
+    background-image: url('C:/Users/gabriel.borato/Documents/Dev/Portfolio/public/Ativo 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid var(--text-color, #000);
+    top: 20px;
+    left: 20px;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+  }
+
+  .dark-mode {
+    background-image: url('C:/Users/gabriel.borato/Documents/Dev/Portfolio/public/Ativo 1.1.png');
+    background-position: center;
+  }
+
+  .dark-mode:before {
+    border: 2px solid var(--text-color, #000);
+    top: 20px;
+    left: 20px;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+  }
+}
