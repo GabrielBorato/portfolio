@@ -22,7 +22,7 @@ function App() {
         <nav>
           <ul>
             <li><a href="https://github.com/GabrielBorato">Projetos</a></li>
-            <li><a href="https://drive.google.com/file/d/1h98k-mgcDleJ8jtazfZv5sSq04SzcjDG/view?usp=drive_link">Currículo</a></li>
+            <li><a href="https://docs.google.com/document/d/1G9h5QyxQ8HgMk0Humrrepb5C6RgOWFgYctwZaMr_hmU/edit?tab=t.0">Currículo</a></li>
             <li><a href="https://api.whatsapp.com/send?phone=5547992021098">Contato</a></li>
             <li><a href="mailto:gabrielfborato2009@hotmail.com">E-mail</a></li>
           </ul>
