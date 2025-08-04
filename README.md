@@ -1,46 +1,104 @@
-# Getting Started with Create React App
+# 🚀 Portfolio - Gabriel Friedrich Borato
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Portfolio minimalista e elegante desenvolvido em React + TypeScript, apresentando minhas habilidades como desenvolvedor Full-Stack especializado em automações Python.
 
-## Available Scripts
+## ✨ Características
 
-In the project directory, you can run:
+- **Design Minimalista**: Interface limpa e moderna
+- **Tema Escuro/Claro**: Alternância dinâmica entre temas
+- **Responsivo**: Otimizado para desktop, tablet e mobile
+- **Animações Suaves**: Transições e efeitos visuais elegantes
+- **SEO Otimizado**: Meta tags e estrutura para melhor indexação
+- **Acessibilidade**: Navegação por teclado e tooltips informativos
 
-### `npm start`
+## 🛠️ Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **React 18** - Framework principal
+- **TypeScript** - Tipagem estática
+- **CSS3** - Estilização e animações
+- **React Icons** - Ícones das tecnologias
+- **GitHub Pages** - Hospedagem
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🎯 Habilidades Demonstradas
 
-### `npm test`
+### Frontend
+- HTML5, CSS3, JavaScript/TypeScript
+- React.js com Hooks
+- Design responsivo e acessível
+- Animações CSS e interatividade
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Backend & Automação
+- Python (automação de processos)
+- SQL (banco de dados)
+- Automação em ambientes Windows e Linux
 
-### `npm run build`
+### Ferramentas
+- Git e GitHub
+- Desenvolvimento web moderno
+- SEO e otimização de performance
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Como Executar
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Pré-requisitos
+- Node.js (versão 14 ou superior)
+- npm ou yarn
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Instalação
+```bash
+# Clone o repositório
+git clone https://github.com/GabrielBorato/portfolio.git
 
-### `npm run eject`
+# Entre na pasta do projeto
+cd portfolio
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Instale as dependências
+npm install
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Execute em modo de desenvolvimento
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Scripts Disponíveis
+- `npm start` - Executa o servidor de desenvolvimento
+- `npm run build` - Cria a versão de produção
+- `npm run deploy` - Faz deploy para GitHub Pages
+- `npm test` - Executa os testes
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 📱 Responsividade
 
-## Learn More
+O portfolio é totalmente responsivo e se adapta a diferentes tamanhos de tela:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Desktop** (>1024px): Layout completo com todas as funcionalidades
+- **Tablet** (601px-1024px): Layout adaptado para telas médias
+- **Mobile** (<600px): Layout otimizado para dispositivos móveis
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🎨 Temas
+
+- **Tema Claro**: Design limpo com fundo claro
+- **Tema Escuro**: Design elegante com fundo escuro
+- **Alternância**: Botão no canto inferior esquerdo
+
+## 📞 Contato
+
+- **GitHub**: [@GabrielBorato](https://github.com/GabrielBorato)
+- **LinkedIn**: [Gabriel Borato](https://linkedin.com/in/gabriel-borato)
+- **Email**: gabrielfborato2009@hotmail.com
+- **WhatsApp**: (47) 99202-1098
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 🤝 Contribuições
+
+Contribuições são sempre bem-vindas! Sinta-se à vontade para:
+
+1. Fazer um fork do projeto
+2. Criar uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abrir um Pull Request
+
+---
+
+**Desenvolvido com ❤️ por Gabriel Friedrich Borato**
