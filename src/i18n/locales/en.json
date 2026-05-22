@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Gabriel Borato",
+    "role": "Senior RPA & Full Stack Developer",
+    "location": "Based in Santa Catarina, Brazil",
+    "tagline": "I turn manual processes into one-click automations — or no click at all.",
+    "ctaPrimary": "Get in touch",
+    "ctaSecondary": "View work"
+  },
+  "about": {
+    "title": "About",
+    "p1": "I'm a Senior RPA Developer at Cantu Inc, where I lead the design of our automation framework and architecture standards. Previously at Grupo Koch S.A., I built internal solutions serving 10,000+ employees across TypeScript, React, Node, and Python stacks.",
+    "p2": "My background blends Business Administration with hands-on engineering — I care about software that delivers measurable ROI, not just clean code. I love micro-frontends, CI/CD pipelines on Azure DevOps, and centralized auth (Keycloak, Azure AD, LDAP3).",
+    "stats": {
+      "yearsLabel": "Years coding",
+      "projectsLabel": "Apps shipped",
+      "usersLabel": "Users impacted"
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "present": "Present",
+    "items": [
+      {
+        "role": "Senior RPA Developer",
+        "company": "Cantu Inc",
+        "location": "Remote",
+        "period": "Feb 2026 — Present",
+        "bullets": [
+          "Designed the RPA team's development framework, standardizing architecture and best practices.",
+          "Owns solution architecture and team backlog management.",
+          "Configures and maintains CI/CD pipelines and project governance on Azure DevOps.",
+          "Implemented centralized SSO with Keycloak and Module Federation on Next.js micro-frontends."
+        ]
+      },
+      {
+        "role": "Mid-level Software Developer",
+        "company": "Grupo Koch S.A.",
+        "location": "Santa Catarina, Brazil",
+        "period": "Jul 2025 — Jan 2026",
+        "bullets": [
+          "Architected a TS/React/Python construction-management app integrated with Azure & WhatsApp APIs.",
+          "Shipped a TS/React tax-update integration with the ERP, saving 2+ months of yearly team work.",
+          "Automated NF-e integration flow with Python, React, AI APIs, and centralized auth for expense auditing.",
+          "Built a centralized auth API with Azure AD and LDAP3 (Python)."
+        ]
+      },
+      {
+        "role": "Junior Software Developer",
+        "company": "Grupo Koch S.A.",
+        "location": "Santa Catarina, Brazil",
+        "period": "Dec 2023 — Jul 2025",
+        "bullets": [
+          "Developed 10+ internal apps in Node.js, Express, and TypeScript serving 10,000+ employees.",
+          "Migrated legacy apps to Docker with horizontal scaling via Docker Swarm.",
+          "Built React/TS dashboards integrated with Oracle DB and ERP authentication.",
+          "Delivered Python RPA solutions for finance, cutting 1h of manual work per day."
+        ]
+      },
+      {
+        "role": "Systems Support",
+        "company": "Grupo Koch S.A.",
+        "location": "Santa Catarina, Brazil",
+        "period": "Sep 2022 — Dec 2023",
+        "bullets": [
+          "Hardware and software technical support.",
+          "Linux retail environment setup and configuration."
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "groups": {
+      "languages": "Languages",
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "databases": "Databases",
+      "devops": "DevOps & Cloud",
+      "tools": "Tools"
+    }
+  },
+  "contact": {
+    "title": "Let's talk",
+    "subtitle": "Have a project in mind, or just want to say hi? Drop me a message.",
+    "name": "Your name",
+    "email": "Your email",
+    "message": "Your message",
+    "send": "Send message",
+    "sending": "Sending...",
+    "success": "Message sent! I'll get back to you soon.",
+    "error": "Something went wrong. Try again or email me directly.",
+    "or": "Or reach me on"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "built": "Built with React, Vite & Tailwind."
+  }
+}
