@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "about": "Sobre",
+    "experience": "Experiência",
+    "skills": "Skills",
+    "contact": "Contato"
+  },
+  "hero": {
+    "greeting": "Olá, eu sou",
+    "name": "Gabriel Borato",
+    "role": "Desenvolvedor RPA & Full Stack Sênior",
+    "location": "Santa Catarina, Brasil",
+    "tagline": "Eu transformo processos manuais em automações de um clique — ou nenhum.",
+    "ctaPrimary": "Fale comigo",
+    "ctaSecondary": "Ver projetos"
+  },
+  "about": {
+    "title": "Sobre",
+    "p1": "Sou Desenvolvedor RPA Sênior na Cantu Inc, onde lidero o design do framework de automação e dos padrões de arquitetura do time. Anteriormente no Grupo Koch S.A., construí soluções internas atendendo mais de 10.000 colaboradores nas stacks TypeScript, React, Node e Python.",
+    "p2": "Minha formação une Administração com engenharia hands-on — me importo com software que entrega ROI mensurável, não apenas código bonito. Curto micro-frontends, pipelines CI/CD no Azure DevOps e autenticação centralizada (Keycloak, Azure AD, LDAP3).",
+    "stats": {
+      "yearsLabel": "Anos codando",
+      "projectsLabel": "Apps entregues",
+      "usersLabel": "Usuários impactados"
+    }
+  },
+  "experience": {
+    "title": "Experiência",
+    "present": "Atual",
+    "items": [
+      {
+        "role": "Desenvolvedor RPA Sênior",
+        "company": "Cantu Inc",
+        "location": "Remoto",
+        "period": "Fev 2026 — Atual",
+        "bullets": [
+          "Criação do framework de desenvolvimento do time de RPA, padronizando arquitetura e boas práticas.",
+          "Definição de arquitetura de soluções e gerenciamento do backlog do time.",
+          "Configuração e manutenção de pipelines CI/CD e gestão de projetos no Azure DevOps.",
+          "Implementação de SSO centralizado com Keycloak e Module Federation em micro-frontends Next.js."
+        ]
+      },
+      {
+        "role": "Desenvolvedor de Software Pleno",
+        "company": "Grupo Koch S.A.",
+        "location": "Santa Catarina, Brasil",
+        "period": "Jul 2025 — Jan 2026",
+        "bullets": [
+          "Arquitetura de aplicação TS/React/Python para gestão de obras integrada com APIs Azure e WhatsApp.",
+          "Sistema TS/React para integração de impostos com o ERP, economizando +2 meses/ano de trabalho.",
+          "Automação do fluxo de NF-e com Python, React, APIs de IA e auth centralizada para auditoria.",
+          "API de autenticação centralizada com Azure AD e LDAP3 (Python)."
+        ]
+      },
+      {
+        "role": "Desenvolvedor de Software Júnior",
+        "company": "Grupo Koch S.A.",
+        "location": "Santa Catarina, Brasil",
+        "period": "Dez 2023 — Jul 2025",
+        "bullets": [
+          "Desenvolvi +10 apps internas em Node.js, Express e TypeScript para +10.000 colaboradores.",
+          "Migração de apps legados para Docker com escalabilidade via Docker Swarm.",
+          "Painéis em React/TS integrados com Oracle DB e autenticação via ERP.",
+          "Soluções RPA em Python para o financeiro, reduzindo 1h/dia de trabalho manual."
+        ]
+      },
+      {
+        "role": "Suporte de Sistemas",
+        "company": "Grupo Koch S.A.",
+        "location": "Santa Catarina, Brasil",
+        "period": "Set 2022 — Dez 2023",
+        "bullets": [
+          "Atendimento e suporte técnico em hardware e software.",
+          "Configuração de ambientes de venda em Linux."
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "groups": {
+      "languages": "Linguagens",
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "databases": "Bancos de Dados",
+      "devops": "DevOps & Cloud",
+      "tools": "Ferramentas"
+    }
+  },
+  "contact": {
+    "title": "Vamos conversar",
+    "subtitle": "Tem um projeto em mente ou só quer dar um oi? Me manda uma mensagem.",
+    "name": "Seu nome",
+    "email": "Seu email",
+    "message": "Sua mensagem",
+    "send": "Enviar mensagem",
+    "sending": "Enviando...",
+    "success": "Mensagem enviada! Retorno em breve.",
+    "error": "Algo deu errado. Tente de novo ou me envie um email direto.",
+    "or": "Ou me encontre em"
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados.",
+    "built": "Feito com React, Vite & Tailwind."
+  }
+}
