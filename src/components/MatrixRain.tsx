@@ -2,8 +2,6 @@ import { useEffect, useRef } from 'react'
 
 /**
  * Matrix-style falling glyph background.
- * Reads CSS vars `--color-matrix` (glyph color) and `--color-matrix-trail`
- * (fade-out color) so it adapts cleanly to light/dark themes.
  */
 export function MatrixRain({ fontSize = 16, speed = 50 }: { fontSize?: number; speed?: number }) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
@@ -52,7 +50,6 @@ export function MatrixRain({ fontSize = 16, speed = 50 }: { fontSize?: number; s
     const draw = (now: number) => {
       if (now - lastDraw >= speed) {
         lastDraw = now
-        // trail: fade using theme-aware translucent bg color
         ctx.fillStyle = readVar('--color-matrix-trail', 'rgba(0,0,0,0.08)')
         ctx.fillRect(0, 0, width, height)
 
@@ -78,17 +75,9 @@ export function MatrixRain({ fontSize = 16, speed = 50 }: { fontSize?: number; s
     animationId = requestAnimationFrame(draw)
     window.addEventListener('resize', setup)
 
-    // Clear canvas on theme switch so old trail color doesn't bleed.
-    const themeObserver = new MutationObserver(clearCanvas)
-    themeObserver.observe(document.documentElement, {
-      attributes: true,
-      attributeFilter: ['class'],
-    })
-
     return () => {
       cancelAnimationFrame(animationId)
       window.removeEventListener('resize', setup)
-      themeObserver.disconnect()
     }
   }, [fontSize, speed])
 
@@ -96,7 +85,7 @@ export function MatrixRain({ fontSize = 16, speed = 50 }: { fontSize?: number; s
     <canvas
       ref={canvasRef}
       aria-hidden="true"
-      className="fixed inset-0 -z-10 pointer-events-none opacity-70 dark:opacity-30"
+      className="fixed inset-0 -z-10 pointer-events-none opacity-70"
     />
   )
 }
