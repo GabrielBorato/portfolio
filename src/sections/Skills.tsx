@@ -9,7 +9,7 @@ export function Skills() {
   return (
     <section id="skills" className="py-24 px-6">
       <div className="max-w-3xl mx-auto">
-        <SectionHeading number="03" title={t('skills.title')} />
+        <SectionHeading number="04" title={t('skills.title')} />
 
         <div className="grid sm:grid-cols-2 gap-4">
           {skillGroups.map((group, i) => (

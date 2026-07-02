@@ -2,13 +2,15 @@
   "nav": {
     "about": "Sobre",
     "experience": "Experiência",
+    "projects": "Projetos",
     "skills": "Skills",
+    "certifications": "Certificações",
     "contact": "Contato"
   },
   "hero": {
     "greeting": "Olá, eu sou",
     "name": "Gabriel Borato",
-    "role": "Desenvolvedor RPA & Full Stack Sênior",
+    "role": "Desenvolvedor Sênior RPA, IA & Full Stack",
     "location": "Santa Catarina, Brasil",
     "tagline": "Eu transformo processos manuais em automações de um clique — ou nenhum.",
     "ctaPrimary": "Fale comigo",
@@ -16,7 +18,7 @@
   },
   "about": {
     "title": "Sobre",
-    "p1": "Sou Desenvolvedor RPA Sênior na Cantu Inc, onde lidero o design do framework de automação e dos padrões de arquitetura do time. Anteriormente no Grupo Koch S.A., construí soluções internas atendendo mais de 10.000 colaboradores nas stacks TypeScript, React, Node e Python.",
+    "p1": "Sou Desenvolvedor RPA Sênior na Cantu Inc, onde lidero o design do framework de automação e dos padrões de arquitetura do time. Anteriormente no Grupo Koch S.A., construí soluções internas impactando milhares de usuários nas stacks TypeScript, React, Node e Python.",
     "p2": "Minha formação une Administração com engenharia hands-on — me importo com software que entrega ROI mensurável, não apenas código bonito. Curto micro-frontends, pipelines CI/CD no Azure DevOps e autenticação centralizada (Keycloak, Azure AD, LDAP3).",
     "stats": {
       "yearsLabel": "Anos codando",
@@ -36,8 +38,10 @@
         "bullets": [
           "Criação do framework de desenvolvimento do time de RPA, padronizando arquitetura e boas práticas.",
           "Definição de arquitetura de soluções e gerenciamento do backlog do time.",
-          "Configuração e manutenção de pipelines CI/CD e gestão de projetos no Azure DevOps.",
-          "Implementação de SSO centralizado com Keycloak e Module Federation em micro-frontends Next.js."
+          "Agente de IA (LangChain + LangSmith) para triagem e suporte do time de tecnologia e usuários internos, integrado a todas as plataformas internas.",
+          "Aplicação para gerenciamento de licenças e produtos internos.",
+          "Module Federation com Vite e autenticação centralizada (SSO com Keycloak) em um único hub nos micro-frontends Next.js.",
+          "Configuração e manutenção de pipelines CI/CD no Azure DevOps, com ambientes em Rancher, Argo CD e Azure."
         ]
       },
       {
@@ -46,10 +50,12 @@
         "location": "Santa Catarina, Brasil",
         "period": "Jul 2025 — Jan 2026",
         "bullets": [
-          "Arquitetura de aplicação TS/React/Python para gestão de obras integrada com APIs Azure e WhatsApp.",
-          "Sistema TS/React para integração de impostos com o ERP, economizando +2 meses/ano de trabalho.",
-          "Automação do fluxo de NF-e com Python, React, APIs de IA e auth centralizada para auditoria.",
-          "API de autenticação centralizada com Azure AD e LDAP3 (Python)."
+          "Arquitetura de aplicação React/Node/Next/Python para gestão de obras e manutenção integrada com APIs Azure e WhatsApp.",
+          "Automação com OCR do fluxo de NF-e para identificação de despesas e triagem de faturas por setor, com portal React/Next de alçada e controle de gastos.",
+          "Sistema de alteração de substituição tributária integrado ao ERP, economizando +2 meses/ano de trabalho.",
+          "API em Python para consulta de preço de SKU por geolocalização (lat/long), validando o valor conforme a filial mais próxima.",
+          "API de autenticação centralizada com Azure AD e LDAP3 (Python).",
+          "Migração de dados entre ERPs."
         ]
       },
       {
@@ -58,10 +64,12 @@
         "location": "Santa Catarina, Brasil",
         "period": "Dez 2023 — Jul 2025",
         "bullets": [
-          "Desenvolvi +10 apps internas em Node.js, Express e TypeScript para +10.000 colaboradores.",
-          "Migração de apps legados para Docker com escalabilidade via Docker Swarm.",
-          "Painéis em React/TS integrados com Oracle DB e autenticação via ERP.",
-          "Soluções RPA em Python para o financeiro, reduzindo 1h/dia de trabalho manual."
+          "Desenvolvi +10 apps internos em Node.js, Express e TypeScript para +10.000 usuários.",
+          "Soluções RPA em Python para o financeiro, economizando 2h/dia de trabalho manual.",
+          "Portais em React/TS para expor em tempo real o progresso de projetos internos, integrados com Oracle DB e autenticação via ERP.",
+          "API para fornecedores acessarem informações internas com segurança.",
+          "Estruturação da infraestrutura do ambiente de RPA.",
+          "Migração de apps legados para Docker com escalabilidade via Docker Swarm."
         ]
       },
       {
@@ -70,9 +78,30 @@
         "location": "Santa Catarina, Brasil",
         "period": "Set 2022 — Dez 2023",
         "bullets": [
-          "Atendimento e suporte técnico em hardware e software.",
+          "Atualização de firmware de periféricos e hardware corporativo.",
+          "Atendimento e centralização das demandas técnicas do time (hardware e software).",
           "Configuração de ambientes de venda em Linux."
         ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projetos & Freelance",
+    "items": [
+      {
+        "title": "Landing pages para pequenos comércios",
+        "description": "Criação de landing pages responsivas e otimizadas para pequenos comércios locais.",
+        "tech": ["React", "Next.js", "Tailwind"]
+      },
+      {
+        "title": "Portfólio de produtos — Imobiliária",
+        "description": "Portfólio de produtos para imobiliária com catálogo dinâmico e gestão de imóveis.",
+        "tech": ["PostgreSQL", "Node.js", "Next.js", "React"]
+      },
+      {
+        "title": "ERP para construtoras",
+        "description": "ERP de gestão para construtoras com integração a APIs públicas.",
+        "tech": ["React", "Node.js", "APIs públicas"]
       }
     ]
   },
@@ -86,6 +115,20 @@
       "devops": "DevOps & Cloud",
       "tools": "Ferramentas"
     }
+  },
+  "certifications": {
+    "title": "Certificações",
+    "inProgress": "Em andamento",
+    "items": [
+      { "title": "Azure AI Engineer Associate", "issuer": "Microsoft", "inProgress": true },
+      { "title": "Azure Solutions Architect Expert", "issuer": "Microsoft", "inProgress": true },
+      { "title": "Gestão de Produtos", "issuer": "Alura" },
+      { "title": "Gerente Ágil", "issuer": "Alura" },
+      { "title": "Java OO", "issuer": "Alura" },
+      { "title": "SQL com Oracle", "issuer": "Alura" },
+      { "title": "Git e GitHub", "issuer": "Alura" },
+      { "title": "Hackers do Bem", "issuer": "Senai" }
+    ]
   },
   "contact": {
     "title": "Vamos conversar",

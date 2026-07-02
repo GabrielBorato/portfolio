@@ -11,8 +11,8 @@ export const profile = {
 
 export const stats = [
   { value: '4+', key: 'yearsLabel' },
-  { value: '15+', key: 'projectsLabel' },
-  { value: '10k+', key: 'usersLabel' },
+  { value: '25+', key: 'projectsLabel' },
+  { value: '40k+', key: 'usersLabel' },
 ]
 
 // Skills grouped — icon names from https://skillicons.dev

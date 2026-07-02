@@ -45,7 +45,7 @@ export function Contact() {
   return (
     <section id="contact" className="py-24 px-6">
       <div className="max-w-2xl mx-auto">
-        <SectionHeading number="04" title={t('contact.title')} />
+        <SectionHeading number="06" title={t('contact.title')} />
 
         <motion.p
           initial={{ opacity: 0, y: 10 }}

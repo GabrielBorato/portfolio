@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import { Languages, Code2 } from 'lucide-react'
 
-const links = ['about', 'experience', 'skills', 'contact'] as const
+const links = ['about', 'experience', 'projects', 'skills', 'certifications', 'contact'] as const
 
 export function Navbar() {
   const { t, i18n } = useTranslation()

@@ -2,13 +2,15 @@
   "nav": {
     "about": "About",
     "experience": "Experience",
+    "projects": "Projects",
     "skills": "Skills",
+    "certifications": "Certifications",
     "contact": "Contact"
   },
   "hero": {
     "greeting": "Hi, I'm",
     "name": "Gabriel Borato",
-    "role": "Senior RPA & Full Stack Developer",
+    "role": "Senior RPA, AI & Full Stack Developer",
     "location": "Based in Santa Catarina, Brazil",
     "tagline": "I turn manual processes into one-click automations — or no click at all.",
     "ctaPrimary": "Get in touch",
@@ -16,7 +18,7 @@
   },
   "about": {
     "title": "About",
-    "p1": "I'm a Senior RPA Developer at Cantu Inc, where I lead the design of our automation framework and architecture standards. Previously at Grupo Koch S.A., I built internal solutions serving 10,000+ employees across TypeScript, React, Node, and Python stacks.",
+    "p1": "I'm a Senior RPA Developer at Cantu Inc, where I lead the design of our automation framework and architecture standards. Previously at Grupo Koch S.A., I built internal solutions impacting thousands of users across TypeScript, React, Node, and Python stacks.",
     "p2": "My background blends Business Administration with hands-on engineering — I care about software that delivers measurable ROI, not just clean code. I love micro-frontends, CI/CD pipelines on Azure DevOps, and centralized auth (Keycloak, Azure AD, LDAP3).",
     "stats": {
       "yearsLabel": "Years coding",
@@ -36,8 +38,10 @@
         "bullets": [
           "Designed the RPA team's development framework, standardizing architecture and best practices.",
           "Owns solution architecture and team backlog management.",
-          "Configures and maintains CI/CD pipelines and project governance on Azure DevOps.",
-          "Implemented centralized SSO with Keycloak and Module Federation on Next.js micro-frontends."
+          "Built an AI agent (LangChain + LangSmith) for triage and support of the tech team and internal users, integrated across every internal platform.",
+          "Delivered an app for managing internal licenses and products.",
+          "Module Federation with Vite and centralized authentication (SSO with Keycloak) in a single hub across Next.js micro-frontends.",
+          "Configures and maintains CI/CD pipelines on Azure DevOps, with Rancher, Argo CD, and Azure environments."
         ]
       },
       {
@@ -46,10 +50,12 @@
         "location": "Santa Catarina, Brazil",
         "period": "Jul 2025 — Jan 2026",
         "bullets": [
-          "Architected a TS/React/Python construction-management app integrated with Azure & WhatsApp APIs.",
-          "Shipped a TS/React tax-update integration with the ERP, saving 2+ months of yearly team work.",
-          "Automated NF-e integration flow with Python, React, AI APIs, and centralized auth for expense auditing.",
-          "Built a centralized auth API with Azure AD and LDAP3 (Python)."
+          "Architected a React/Node/Next/Python construction & maintenance management app integrated with Azure & WhatsApp APIs.",
+          "OCR automation of the NF-e flow for expense identification and invoice triage by department, with a React/Next portal for approval hierarchy and spend control.",
+          "Tax substitution (ICMS-ST) change system integrated with the ERP, saving 2+ months of yearly team work.",
+          "Python API for SKU pricing by geolocation (lat/long), validating prices against the nearest branch.",
+          "Built a centralized auth API with Azure AD and LDAP3 (Python).",
+          "Data migration between ERPs."
         ]
       },
       {
@@ -58,10 +64,12 @@
         "location": "Santa Catarina, Brazil",
         "period": "Dec 2023 — Jul 2025",
         "bullets": [
-          "Developed 10+ internal apps in Node.js, Express, and TypeScript serving 10,000+ employees.",
-          "Migrated legacy apps to Docker with horizontal scaling via Docker Swarm.",
-          "Built React/TS dashboards integrated with Oracle DB and ERP authentication.",
-          "Delivered Python RPA solutions for finance, cutting 1h of manual work per day."
+          "Developed 10+ internal apps in Node.js, Express, and TypeScript serving 40,000+ users.",
+          "Delivered Python RPA solutions for finance, saving 2h of manual work per day.",
+          "Built React/TS portals exposing real-time progress of internal projects, integrated with Oracle DB and ERP authentication.",
+          "Developed an API for suppliers to securely access internal information.",
+          "Structured the RPA environment infrastructure.",
+          "Migrated legacy apps to Docker with horizontal scaling via Docker Swarm."
         ]
       },
       {
@@ -70,9 +78,30 @@
         "location": "Santa Catarina, Brazil",
         "period": "Sep 2022 — Dec 2023",
         "bullets": [
-          "Hardware and software technical support.",
+          "Firmware updates for peripherals and corporate hardware.",
+          "Handled and centralized the team's technical demands (hardware and software).",
           "Linux retail environment setup and configuration."
         ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects & Freelance",
+    "items": [
+      {
+        "title": "Landing pages for small businesses",
+        "description": "Built responsive, optimized landing pages for local small businesses.",
+        "tech": ["React", "Next.js", "Tailwind"]
+      },
+      {
+        "title": "Product portfolio — Real estate",
+        "description": "Product portfolio for a real estate company with a dynamic catalog and property management.",
+        "tech": ["PostgreSQL", "Node.js", "Next.js", "React"]
+      },
+      {
+        "title": "ERP for construction companies",
+        "description": "Management ERP for construction companies with public API integrations.",
+        "tech": ["React", "Node.js", "Public APIs"]
       }
     ]
   },
@@ -86,6 +115,20 @@
       "devops": "DevOps & Cloud",
       "tools": "Tools"
     }
+  },
+  "certifications": {
+    "title": "Certifications",
+    "inProgress": "In progress",
+    "items": [
+      { "title": "Azure AI Engineer Associate", "issuer": "Microsoft", "inProgress": true },
+      { "title": "Azure Solutions Architect Expert", "issuer": "Microsoft", "inProgress": true },
+      { "title": "Product Management", "issuer": "Alura" },
+      { "title": "Agile Manager", "issuer": "Alura" },
+      { "title": "Object-Oriented Java", "issuer": "Alura" },
+      { "title": "SQL with Oracle", "issuer": "Alura" },
+      { "title": "Git & GitHub", "issuer": "Alura" },
+      { "title": "Hackers do Bem", "issuer": "Senai" }
+    ]
   },
   "contact": {
     "title": "Let's talk",
