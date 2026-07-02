@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import { ArrowRight, MapPin } from 'lucide-react'
+import profilePhoto from '../assets/profile.jpg'
 
 export function Hero() {
   const { t } = useTranslation()
@@ -10,6 +11,21 @@ export function Hero() {
       <div className="absolute inset-0 bg-gradient-to-b from-[color:var(--color-bg)]/0 via-[color:var(--color-bg)]/40 to-[color:var(--color-bg)] pointer-events-none" />
 
       <div className="relative max-w-3xl w-full mx-auto text-center">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="flex justify-center mb-6"
+        >
+          <img
+            src={profilePhoto}
+            alt={t('hero.name')}
+            width={144}
+            height={144}
+            className="size-36 rounded-full object-cover ring-2 ring-[color:var(--color-accent)] ring-offset-2 ring-offset-[color:var(--color-bg)] shadow-lg"
+          />
+        </motion.div>
+
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
