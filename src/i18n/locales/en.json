@@ -64,7 +64,7 @@
         "location": "Santa Catarina, Brazil",
         "period": "Dec 2023 — Jul 2025",
         "bullets": [
-          "Developed 10+ internal apps in Node.js, Express, and TypeScript serving 40,000+ users.",
+          "Developed 10+ internal apps in Node.js, Express, and TypeScript serving 10,000+ users.",
           "Delivered Python RPA solutions for finance, saving 2h of manual work per day.",
           "Built React/TS portals exposing real-time progress of internal projects, integrated with Oracle DB and ERP authentication.",
           "Developed an API for suppliers to securely access internal information.",
