@@ -8,7 +8,7 @@ export function Hero() {
 
   return (
     <section id="top" className="relative min-h-[100svh] flex items-center justify-center px-6 pt-24 pb-16 overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-[color:var(--color-bg)]/0 via-[color:var(--color-bg)]/40 to-[color:var(--color-bg)] pointer-events-none" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_50%_at_50%_45%,color-mix(in_srgb,var(--color-bg)_55%,transparent),transparent)] pointer-events-none" />
 
       <div className="relative max-w-3xl w-full mx-auto text-center">
         <motion.div

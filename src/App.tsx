@@ -13,6 +13,7 @@ export default function App() {
   return (
     <div className="relative min-h-screen">
       <MatrixRain />
+      <div className="fixed inset-0 -z-10 bg-[color:var(--color-bg)]/70 pointer-events-none" />
       <Navbar />
       <main>
         <Hero />

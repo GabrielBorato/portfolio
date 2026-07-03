@@ -18,8 +18,10 @@
   },
   "about": {
     "title": "About",
-    "p1": "I'm a Senior RPA Developer at Cantu Inc, where I lead the design of our automation framework and architecture standards. Previously at Grupo Koch S.A., I built internal solutions impacting thousands of users across TypeScript, React, Node, and Python stacks.",
-    "p2": "My background blends Business Administration with hands-on engineering — I care about software that delivers measurable ROI, not just clean code. I love micro-frontends, CI/CD pipelines on Azure DevOps, and centralized auth (Keycloak, Azure AD, LDAP3).",
+    "p1": "I'm a Senior RPA and Full Stack Developer with over 3 years of hands-on experience building scalable solutions that deliver real business impact. Starting from technical support, I quickly advanced to leading architecture and development projects, specializing in Python, TypeScript, React/Next.js, Azure cloud, and RPA automation.",
+    "p2": "At Cantu Inc, I designed and implemented the RPA team's development framework, introduced Module Federation in micro-frontends, and built a centralized SSO solution with Keycloak — significantly improving development efficiency and security.",
+    "p3": "Previously at Grupo Koch, I architected multiple internal systems that automated critical processes, saving the company hundreds of hours of manual work annually. I'm passionate about clean architecture, DevOps practices, and turning complex problems into simple, maintainable solutions.",
+    "p4": "When I'm not coding, you'll find me exploring new technologies, riding motorcycles, or planning my next adventure.",
     "stats": {
       "yearsLabel": "Years coding",
       "projectsLabel": "Apps shipped",

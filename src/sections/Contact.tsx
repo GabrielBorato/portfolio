@@ -110,12 +110,12 @@ export function Contact() {
           <p className="text-xs font-mono uppercase tracking-wider text-[color:var(--color-muted)] mb-4">
             {t('contact.or')}
           </p>
-          <div className="flex items-center justify-center gap-2">
-            <SocialLink href={profile.github} icon={<FaGithub className="size-4" />} label="GitHub" />
-            <SocialLink href={profile.linkedin} icon={<FaLinkedin className="size-4" />} label="LinkedIn" />
-            <SocialLink href={`mailto:${profile.email}`} icon={<Mail className="size-4" />} label="Email" />
-            <SocialLink href={profile.whatsapp} icon={<FaWhatsapp className="size-4" />} label="WhatsApp" />
-            <SocialLink href={profile.instagram} icon={<FaInstagram className="size-4" />} label="Instagram" />
+          <div className="flex items-center justify-center gap-[0.6rem]">
+            <SocialLink href={profile.github} icon={<FaGithub className="size-[1.2rem]" />} label="GitHub" />
+            <SocialLink href={profile.linkedin} icon={<FaLinkedin className="size-[1.2rem]" />} label="LinkedIn" />
+            <SocialLink href={`mailto:${profile.email}`} icon={<Mail className="size-[1.2rem]" />} label="Email" />
+            <SocialLink href={profile.whatsapp} icon={<FaWhatsapp className="size-[1.2rem]" />} label="WhatsApp" />
+            <SocialLink href={profile.instagram} icon={<FaInstagram className="size-[1.2rem]" />} label="Instagram" />
           </div>
         </div>
       </div>
@@ -130,7 +130,7 @@ function SocialLink({ href, icon, label }: { href: string; icon: React.ReactNode
       target="_blank"
       rel="noopener noreferrer"
       aria-label={label}
-      className="p-2.5 rounded-lg border border-[color:var(--color-border)] text-[color:var(--color-muted)] hover:text-[color:var(--color-accent)] hover:border-[color:var(--color-accent)] transition-colors"
+      className="p-[0.75rem] rounded-lg border border-[color:var(--color-border)] text-[color:var(--color-muted)] hover:text-[color:var(--color-accent)] hover:border-[color:var(--color-accent)] transition-colors"
     >
       {icon}
     </a>
