@@ -18,7 +18,7 @@
   },
   "about": {
     "title": "Sobre",
-    "p1": "Sou Desenvolvedor Sênior de RPA e Full Stack com mais de 3 anos de experiência prática construindo soluções escaláveis que geram impacto real no negócio. Começando pelo suporte técnico, avancei rapidamente para liderar projetos de arquitetura e desenvolvimento, com especialização em Python, TypeScript, React/Next.js, Azure cloud e automação RPA.",
+    "p1": "Sou Desenvolvedor Sênior de RPA e Full Stack com mais de 4 anos de experiência prática construindo soluções escaláveis que geram impacto real no negócio. Começando pelo suporte técnico, avancei rapidamente para liderar projetos de arquitetura e desenvolvimento, com especialização em Python, TypeScript, React/Next.js, Azure cloud e automação RPA.",
     "p2": "Na Cantu Inc, projetei e implementei o framework de desenvolvimento do time de RPA, introduzi Module Federation em micro-frontends e construí uma solução de SSO centralizado com Keycloak — melhorando significativamente a eficiência de desenvolvimento e a segurança.",
     "p3": "Anteriormente no Grupo Koch, arquitetei diversos sistemas internos que automatizaram processos críticos, economizando centenas de horas de trabalho manual por ano para a empresa. Sou apaixonado por arquitetura limpa, práticas de DevOps e por transformar problemas complexos em soluções simples e sustentáveis.",
     "p4": "Quando não estou codando, você me encontra explorando novas tecnologias, pilotando motos ou planejando minha próxima aventura.",
@@ -104,6 +104,26 @@
         "title": "ERP para construtoras",
         "description": "ERP de gestão para construtoras com integração a APIs públicas.",
         "tech": ["React", "Node.js", "APIs públicas"]
+      },
+      {
+        "title": "E-commerce",
+        "description": "Criação de uma plataforma de e-commerce com React, Node.js e Next.js.",
+        "tech": ["React", "Node.js", "Next.js"]
+      },
+      {
+        "title": "Hub de micro-frontends",
+        "description": "Desenvolvimento de um hub que integra aplicações React com Module Federation e Vite.",
+        "tech": ["React", "Vite", "Module Federation"]
+      },
+      {
+        "title": "Gestão de notas fiscais de consumo interno",
+        "description": "Sistema para gerenciamento de notas fiscais de consumo interno, com aprovação por alçada e pré-leitura dos documentos com inteligência artificial.",
+        "tech": ["IA", "Gestão por alçada"]
+      },
+      {
+        "title": "Automações, APIs e portais de gestão",
+        "description": "Desenvolvimento de dezenas de automações, APIs e portais para gerenciamento de informações, integração de sistemas e otimização de processos.",
+        "tech": ["Automação", "APIs", "Portais de gestão"]
       }
     ]
   },

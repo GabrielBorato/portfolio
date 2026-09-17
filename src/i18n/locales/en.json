@@ -104,6 +104,26 @@
         "title": "ERP for construction companies",
         "description": "Management ERP for construction companies with public API integrations.",
         "tech": ["React", "Node.js", "Public APIs"]
+      },
+      {
+        "title": "E-commerce",
+        "description": "Built an e-commerce platform with React, Node.js, and Next.js.",
+        "tech": ["React", "Node.js", "Next.js"]
+      },
+      {
+        "title": "Micro-frontend hub",
+        "description": "Developed a hub that integrates React applications using Module Federation and Vite.",
+        "tech": ["React", "Vite", "Module Federation"]
+      },
+      {
+        "title": "Internal consumption invoice management",
+        "description": "Invoice management system for internal consumption, with approval workflows based on authority levels and AI-assisted document pre-reading.",
+        "tech": ["AI", "Approval workflows"]
+      },
+      {
+        "title": "Automations, APIs, and management portals",
+        "description": "Developed dozens of automations, APIs, and portals for information management, system integration, and process optimization.",
+        "tech": ["Automation", "APIs", "Management portals"]
       }
     ]
   },
