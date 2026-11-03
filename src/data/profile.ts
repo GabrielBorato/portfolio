@@ -1,7 +1,7 @@
 export const profile = {
   name: 'Gabriel Borato',
   fullName: 'Gabriel Friedrich Borato',
-  email: 'gabrielfborato2009@hotmail.com',
+  email: 'gabriel.fborato@outlook.com',
   phone: '+55 (47) 99202-1098',
   whatsapp: 'https://wa.me/5547992021098',
   github: 'https://github.com/GabrielBorato',

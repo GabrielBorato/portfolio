@@ -142,8 +142,6 @@
     "title": "Certifications",
     "inProgress": "In progress",
     "items": [
-      { "title": "Azure AI Engineer Associate", "issuer": "Microsoft", "inProgress": true },
-      { "title": "Azure Solutions Architect Expert", "issuer": "Microsoft", "inProgress": true },
       { "title": "Product Management", "issuer": "Alura" },
       { "title": "Agile Manager", "issuer": "Alura" },
       { "title": "Object-Oriented Java", "issuer": "Alura" },

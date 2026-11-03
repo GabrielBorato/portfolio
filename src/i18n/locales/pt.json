@@ -142,8 +142,6 @@
     "title": "Certificações",
     "inProgress": "Em andamento",
     "items": [
-      { "title": "Azure AI Engineer Associate", "issuer": "Microsoft", "inProgress": true },
-      { "title": "Azure Solutions Architect Expert", "issuer": "Microsoft", "inProgress": true },
       { "title": "Gestão de Produtos", "issuer": "Alura" },
       { "title": "Gerente Ágil", "issuer": "Alura" },
       { "title": "Java OO", "issuer": "Alura" },
